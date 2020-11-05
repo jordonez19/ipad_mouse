@@ -12,9 +12,8 @@ boton.addEventListener("click", clearcanvas1 );
 
 function clearcanvas1()
 {
-    pizarra.clearRect(0,0,canvas.width,canvas.height);
+    papel.clearRect(0,0,pizarra.width,pizarra.height);
 }
-
 
 
 pizarra.addEventListener('mousedown', event => {
